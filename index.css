@@ -1,0 +1,17 @@
+.header {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.container {
+    display: flex;
+}
+
+.body {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
