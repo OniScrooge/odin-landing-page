@@ -109,11 +109,11 @@
 }
 
 .action {
-    display: flex;
     justify-content: center;
     background-color: #5d98f7;
     margin: 100px 600px;
-    padding: 50px;
+    padding: 50px 70px;
+    border-radius: 5px;
 }
 
 .call {
@@ -123,8 +123,10 @@
 }
 
 .sub {
+    display: inline;
     color: white;
     font-size: 12px;
+    margin-right: 50px;
 }
 
 .footer {
