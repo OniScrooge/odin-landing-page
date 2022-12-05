@@ -111,7 +111,7 @@
 .action {
     justify-content: center;
     background-color: #5d98f7;
-    margin: 100px 600px;
+    margin: 50px 600px;
     padding: 50px 70px;
     border-radius: 5px;
 }
@@ -130,5 +130,9 @@
 }
 
 .footer {
-    display: flex;
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
 }
