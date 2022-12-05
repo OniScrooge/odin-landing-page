@@ -1,11 +1,79 @@
 .header {
-    display: inline-flex;
-    flex-direction: column;
     background-color: #1f2937;
+    color: #f9FAF8;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    margin-bottom: 120px;
+    padding: 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 12px;
+}
+
+.list {
+    display: inline-flex;
+    margin: 0 12px;
+}
+
+.bottom {
+    margin: 0 115px;
+}
+
+.awesome {
+    display: flex;
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: #f9FAF8;
+}
+
+.subtext {
+    display: flex;
+    max-width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9FAF8;
+    font-weight: bold;
+    border: none;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.bird {
+    position: relative;
+    left: 900px;
+    bottom: 140px;
+    width: 600px;
+    height: auto;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.stock {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.info {
+    max-width: 100px;
 }
 
 .body {
